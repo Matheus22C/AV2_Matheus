@@ -17,3 +17,9 @@ SELECT * FROM Livro
 WHERE quantidade_de_paginas > 600;
 
 SELECT categoria 
+FROM Livro 
+GROUP BY categoria;
+
+SELECT * FROM Livro
+ORDER BY ID DESC
+LIMIT 8;
